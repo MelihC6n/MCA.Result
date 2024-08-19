@@ -13,9 +13,21 @@
     <Description>A package makes easy for you to return success or failed result.</Description>
     <Copyright>LICENSE.txt</Copyright>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://github.com/MelihC6n/MCA.Result</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/MelihC6n/MCA.Result</RepositoryUrl>
+    <PackageTags>result</PackageTags>
+    <PackageReleaseNotes>This is first commit.</PackageReleaseNotes>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <IncludeSymbols>True</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Update="LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Update="README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
